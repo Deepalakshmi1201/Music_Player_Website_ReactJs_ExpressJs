@@ -1,42 +1,158 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/* Login Page */
+.musicFolderH {
+  background-color: aqua;
+  height: 27vh;
+  /* width: 80vw; */
+  margin: 0;
+  /* flex: 1; */
+}
+.musicFolderC {
+  background-color: yellow;
+  height: 30vh;
+  display: flex; /* Ensure flex is applied */
+  flex-direction: row; /* Children are arranged in a row */
+  /* width: 80vw; */
+  gap: 10px; /* Optional: Adds space between flex children */
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.musicfullImg {
+  border-radius: 50px;
+  width: 18vw;
+  height: 30vh;
+  border-style: solid;
+  /* border-width: 1px;   */
+  border-radius: 10px;
+  border-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.527);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.credits {
+  border-radius: 50px;
+  width: 18vw;
+  height: 60vh;
+  border-style: solid;
+  /* padding: 10px; */
+  /* border-width: 1px;   */
+  border-radius: 10px;
+  border-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.527);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.maincompContainer{
+  display: flex;
+  flex-direction: column;
+}
+.mainComH {
+  background-color: aqua;
+  height: 8vh;
+  width: 99.3vw;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.musicFolderImg {
+  border-radius: 50px;
+  width: 150px;
+  height: 150px;
+  border-style: solid;
+  /* border-width: 1px;   */
+  border-radius: 10px;
+  border-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.527);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.sideNav {
+  height: 77vh;
+  background-color: aqua;
 }
 
-.card {
-  padding: 2em;
+.panel {
+  width: 17vw;
+  margin-left: 5px;
+  height: 12vh;
+  padding: 8px;
+}
+.panel:hover {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  border-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.527);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.image {
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  border-style: solid;
+  /* border-width: 1px;   */
+  border-radius: 10px;
+  border-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.527);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
-.read-the-docs {
-  color: #888;
+.homeContainer {
+  background-color: yellow;
+  width: 80vw;
+  height: 77vh;
+  margin: 0px;
+  display: flex; /* Ensure flex is applied */
+  flex-direction: row; /* Children are arranged in a row */
+  /* width: 80vw; */
+  gap: 10px; /* Optional: Adds space between flex children */
+}
+.panel1 {
+  width: 17vw;
+  margin-left: 5px;
+  height: 12vh;
+  padding: 8px;
+  border-style: solid;
+  /* border-width: 1px;   */
+  border-radius: 10px;
+  border-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.527);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 0px, rgba(0, 0, 0, 0.23) 0px 1px 3px;
+}
+.mainComF{
+  height: 15vh;
+
+  background-color: grey;
+}
+.BrowseContainer {
+  /* background-color: yellow;   */
+  width: 80vw;
+  height: 74vh;
+  margin: 0px;
+  overflow: hidden;
+  display: flex; /* Ensure flex is applied */
+  flex-direction: column; /* Children are arranged in a row */
+  /* width: 80vw; */
+  /* padding: 10px */
+  gap: 10px; /* Optional: Adds space between flex children */
+}
+.BrowsePanel{
+  width: 30vw;
+  margin-left: 5px;
+  height: 23vh;
+  overflow: hidden;
+  /* padding: 8px; */
+  border-style: solid;
+  border-width: 1px;  
+  border-radius: 10px;
+  border-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.527);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 0px, rgba(0, 0, 0, 0.23) 0px 1px 3px;
+}
+
+.BrowseC{
+  height: 62vh;
+  /* background-color: aqua; */
+  overflow: auto;
+  padding: 10px;
+}
+.BrowseC::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Edge */
 }
